@@ -4,7 +4,7 @@ import pickle
 import numpy as np
 
 # Load the .pkl model
-with open("https://drive.google.com/file/d/1UQLNxb3mv-UPk0RD0XOOP5xBuR3tD7mR/view?usp=sharing", "rb") as f:
+with open("medical_insurance.pkl", "rb") as f:
     model = pickle.load(f)
 
 st.title("Prediction App")
